@@ -1,0 +1,68 @@
+/*
+
+CSS Unit
+    px
+    %
+    vh
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+.div-box{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: rgb(255, 106, 0);
+    margin-top: 100px;
+
+    transform: rotate(30deg);
+}
+.div-box .content{
+    transform: rotate(-30deg);
+}
+
+
+
+
+
+
+.div-box2{
+    margin-top: 200px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: seashell;
+    margin-left: 100px;
+    text-align: center;
+
+    transform: skewX(50deg);
+}
+.div-box2 h1{
+}
+.div-box2 .content{
+    padding-top: 40px;
+    transform: skewX(-50deg);
+}
+
+
+
+
+
+.div-box3{
+    margin-top: 200px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+}
+.div-box3 .content{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(206, 74, 74);
+
+    /* transform: translate(left-right, top-bottom); */
+    transform: translate(10px, 50px);
+}
